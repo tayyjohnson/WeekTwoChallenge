@@ -17,6 +17,27 @@
     color: silver;
   }
   
+  .section-title {
+    font-size: 55px;
+    color: purple;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    text-align: center;
+  }
+
+  .primary-border {
+    border-color: purple;
+  }
+
+  .intro {
+    text-align:left;
+  }
+
+  .intro ul {
+    color: purple;
+    font-size: 20px;
+  }
 
   body, html {
       height: 100%;
@@ -44,4 +65,5 @@
       text-align: center;
       background-color: deeppink;
       color: silver;
+      width: 100%;
   }
