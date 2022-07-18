@@ -1,61 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Taylor Johnson - Portfolio </title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="./assets/css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Taylor Johnson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
 
 <body>
 
-<div class="hero-image">
-    <div class="hero-text">
-        <h1>
-            Hi there - I'm Taylor Johnson!
-            <p>
-                
+    <!-- navigation and header  -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Taylor Johnson</h1>
+            <menu class="menu">
+                <ul class="nav-list">
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+
+    <!-- about me section  -->
+    <h2 id="about-me" class="title">About</h2>
+    <section class="about-me">
+        <div class="about-box">
+            <img id="me" src="./images/B09A9636DV3C2364-2.jpg" alt="Taylor Johnson">
+
+            <p><span class="italics">Hey yall!</span> My name is <span>Taylor Johnson</span> and I am from Goochland,
+                VA.
+                Currently, I am working on becoming apart of Luck Stone's IT team. This website is meant to be a portfolio
+                of
+                my work & show off some of the projects/challenges I'm proud of!
+                <br>
+                <br>
+                Currently I am a COMD associate for Luck Stone & in my spare time I like to spend time with my husband
+                and our three dogs whos names are Ruger, Alexa & Gracie. We like to travel as much as we can & 
+                just experience all the things God has placed in front of us!
+                <br>
+                <br>
+                Feel free to reach out! My contact information can be found at the bottom of this page or just click
+                the 'Contact' link in the navigation bar. Thanks for checking me out! :)
             </p>
-            <button>
-                Maybe one day this will serve a purpose...
-            </button>
-        </h1>
-    </div>
-</div>
+        </div>
+    </section>
 
-<div class="topnav">
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-</div>
+    <!-- projects section  -->
+    <h2 id="projects" class="title">Projects</h2>
+    <section class="projects">
+        <p class="projects-intro-p">Below are some examples of my work. Click on each project to view the deployed application.</p>
+        <div class="project-examples">
+            <div class="main-project">
+                <h3>
+                    <a target="_blank" href="https://easmsm.github.io/movie_finder/">Media Shelf</a>
+                </h3>
+                <a target="_blank" href="https://easmsm.github.io/movie_finder/">
+                    <img src="./images/mediashelf img.png" alt="Media Shelf Project">
 
-<section id="projects" class="work">
-    <h2 class="section-title secondary-border"> Projects </h2>
-    <p>
-        Here's some projects I've created
-    </p>
-</section>
+                </a>
 
-<section id="about-me" class="intro">
-    <h2 class="section-title primary-border"> About Me </h2>
-    <ul>
-        <li>
-        I work for Luck Stone currently as a COMD Associate & plan to migrate to their IT department in the near future.
-        </li>
+            </div>
+            <div class="other-projects">
+                <div class="single-other-projects">
+                    <h3><a target="_blank" href="https://tayyjohnson.github.io/WeekOneChallenge/">Horiseon</a></h3>
+                    <a target="_blank" href="https://tayyjohnson.github.io/WeekOneChallenge/">
+                        <img src="./images/horiseon img.png" alt="Horiseon Project Screenshot">
+                    </a>
 
-        <li>
-        My final landing zone will hopefully be within their Cyber Security Team.
-        </li>
+                </div>
+                <div class="single-other-projects">
+                    <h3><a href="https://tayyjohnson.github.io/WeekThreeChallenge/">Password Generator</a></h3>
+                    <a target="_blank" href="https://tayyjohnson.github.io/WeekThreeChallenge/">
+                        <img src="./images/passwordgen.png" alt="Password Generator">
+                    </a>
+                </div>
+                <div class="single-other-projects">
+                    <h3><a href="https://tayyjohnson.github.io/workdayscheduler/">Work Day Scheduler</a></h3>
+                    <a target="_blank" href="https://tayyjohnson.github.io/workdayscheduler/">
+                        <img src="./images/Screenshot 2022-07-17 224217.png" alt="Work Day Scheduler">
+                    </a>
+                </div>
+            </div>
 
-        <li>
-        My husband & I have 3 dogs whose names are Ruger, Alexa & Gracie. They are essentially our children & we don't know what we'd do without them!
-        </li>
-    </ul>
-</section>
 
-<footer>
-    <h2>
-        That's all for now Folks!
-    </h2>
-</footer>
+        </div>
+    </section>
 
+    <!-- contact section -->
+    <section>
+        <h2 id="contact" class="title">Contact</h2>
+        <div class="contact">
+            <p><a href="mailto:taydriver1@gmail.com">Email: taydriver1@gmail.com</a></p>
+            <br>
+            <p>Phone: (123)-456-7891
+            <br>
+            <p><a href="https://github.com/tayyjohnson">github.com/tayyjohnson</a></p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <nav class="navbar">
+            <menu class="menu">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </footer>
 </body>
+
 </html>
